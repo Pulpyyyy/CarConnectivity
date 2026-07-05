@@ -20,7 +20,7 @@ dependencies = [
     "pytimeparse~=1.1.8",
     "ntplib~=0.4.0",
     "haversine~=2.9.0",
-    "requests~=2.33.1",
+    "requests~=2.34.2",
 ]
 readme = "README.md"
 license = "MIT"
@@ -41,21 +41,21 @@ classifiers = [
 
 [project.optional-dependencies]
 connectors = [
-    'carconnectivity-connector-volkswagen>=0.10.1',
-    'carconnectivity-connector-skoda>=0.11.7',
-    'carconnectivity-connector-seatcupra>=0.5.1',
-    'carconnectivity-connector-tronity>=0.7.1',
+    'carconnectivity-connector-volkswagen>=0.10.5',
+    'carconnectivity-connector-skoda>=0.12.6',
+    'carconnectivity-connector-seatcupra>=0.6.4',
+    'carconnectivity-connector-tronity>=0.7.3',
 ]
 plugins = [
-    'carconnectivity-plugin-mqtt>=0.9.1',
-    'carconnectivity-plugin-mqtt_homeassistant>=0.6.1',
-    'carconnectivity-plugin-abrp>=0.8.1',
-    'carconnectivity-plugin-homekit>=0.7.4',
-    'carconnectivity-plugin-webui>=0.7',
-    'carconnectivity-plugin-database>=0.3',
+    'carconnectivity-plugin-mqtt>=0.10.5',
+    'carconnectivity-plugin-mqtt_homeassistant>=0.6.6',
+    'carconnectivity-plugin-abrp>=0.8.3',
+    'carconnectivity-plugin-homekit>=0.7.7',
+    'carconnectivity-plugin-webui>=0.7.3',
+    'carconnectivity-plugin-database>=0.4.5',
 ]
 images = [
-    'pillow~=12.2.0',
+    'pillow~=12.3.0',
     'ascii_magic~=2.7.5'
 
 ]
